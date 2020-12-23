@@ -1,0 +1,20 @@
+Source: realtek-r8168-driver
+Section: kernel
+Priority: optional
+Maintainer: Elvis Yao <ElvisCW.Yao@moxa.com>
+Standards-Version: 4.1.2
+Build-Depends: debhelper (>= 10),
+               libc6-dev,
+               linux-headers-4.19.0-13-amd64
+Homepage: https://www.moxa.com/
+
+Package: realtek-r8168-driver-amd64
+Architecture: amd64
+Depends: ${misc:Depends},
+         linux-image-4.19.0-13-amd64
+Description: This is the Linux device driver released for RealTek
+ 10/100/1000M Gigabit Ethernet: RTL8111B, RTL8111C, RTL8111D, 
+ RTL8111F, RTL8111G(S), RTL8111H(S), RTL8118(A)(S), RTL8119i, 
+ RTL8111L, RTL8111E, RTL8168B, RTL8168E, RTL8168H, RTL8111DP,
+ RTL8111EP, RTL8111FP, RTL8411, RTL8411B Gigabit Ethernet
+ controllers with PCI-Express interface for x86 platform.
