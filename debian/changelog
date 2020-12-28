@@ -1,0 +1,5 @@
+realtek-r8168-driver (8.048.00+1.0.0+deb10) buster; urgency=medium
+
+  * First released.
+
+ -- Elvis Yao (姚家瑋) <ElvisCW.Yao@moxa.com>  Tue, 22 Dec 2020 16:26:39 +0800

@@ -1,0 +1,1 @@
+src/r8168.ko /lib/modules/4.19.0-13-amd64/kernel/drivers/net/ethernet/realtek
